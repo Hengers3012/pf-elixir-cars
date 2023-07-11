@@ -1,11 +1,8 @@
-import Header from "@/components/header/Header";
-
-export default function LandingPage() {
+export default function HomePage() {
   return (
     <main className="grow">
-      <Header />
       <section className="grow flex justify-center items-center flex-col gap-2 m-3">
-        <h1 className="font-bold text-4xl">Landing Page</h1>
+        <h1 className="font-bold text-4xl">User home page</h1>
         <img
           alt="Comming soon"
           loading="lazy"
