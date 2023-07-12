@@ -16,7 +16,7 @@ export default function LandingPage() {
           className="object-contain"
           src="https://dhi-app.vercel.app/_next/image?url=%2Fassets%2Fcoming-soon.png&w=640&q=75"
           style={{ color: "transparent" }}
-        ></img>
+        />
       </section>
     </main>
   );
