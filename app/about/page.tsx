@@ -1,4 +1,7 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+
 import person_1 from "../../public/Image/person-1.png";
 import person_2 from "../../public/Image/person-2.png";
 import person_3 from "../../public/Image/person-3.png";
@@ -8,9 +11,7 @@ import person_6 from "../../public/Image/person-6.png";
 import person_7 from "../../public/Image/person-7.png";
 import person_8 from "../../public/Image/person-8.png";
 import person_9 from "../../public/Image/person-9.png";
-
-import Image from "next/image";
-import Link from "next/link";
+import person_10 from "../../public/Image/person-10.png";
 
 export default function page() {
   return (
@@ -158,23 +159,6 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg transition duration-300 hover:shadow-md hover:bg-[#FFD700]">
-                    <Image
-                      alt="team"
-                      className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 border-solid shadow-md shadow-[#555555] rounded-full mr-4 transition duration-300 hover:scale-110"
-                      src={person_3}
-                      width={"100"}
-                      height={"100"}
-                    />
-                    <div className="flex-grow">
-                      <h2 className="text-gray-900 title-font font-medium">
-                        Alejandro Cañon
-                      </h2>
-                      <p className="text-gray-500">Developer</p>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="p-4 lg:w-1/3 md:w-1/2 w-full ">
                   <div className="h-full flex items-top border-gray-200 border p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
@@ -182,7 +166,7 @@ export default function page() {
                       <Image
                         alt="team"
                         className=" mr-2 flex-shrink-0 h-32 w-28 bg-white rounded-lg object-cover object-top sm:mb-0 border-solid shadow-md shadow-[#555555] transition duration-500 hover:scale-105"
-                        src={person_2}
+                        src={person_10}
                         width={"500"}
                       />
                     </div>
@@ -221,23 +205,6 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg transition duration-300 hover:shadow-md hover:bg-[#FFD700]">
-                    <Image
-                      alt="team"
-                      className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 border-solid shadow-md shadow-[#555555] rounded-full mr-4 transition duration-300 hover:scale-110"
-                      src={person_2}
-                      width={"80"}
-                      height={"80"}
-                    />
-                    <div className="flex-grow">
-                      <h2 className="text-gray-900 title-font font-medium">
-                        Angel Eduardo Tirado Veroes
-                      </h2>
-                      <p className="text-gray-500">Developer</p>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="p-4 lg:w-1/3 md:w-1/2 w-full ">
                   <div className="h-full flex items-top border-gray-200 border p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
@@ -284,23 +251,6 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg transition duration-300 hover:shadow-md hover:bg-[#FFD700]">
-                    <Image
-                      alt="team"
-                      className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 border-solid shadow-md shadow-[#555555] rounded-full mr-4 transition duration-300 hover:scale-110"
-                      src={person_4}
-                      width={"80"}
-                      height={"80"}
-                    />
-                    <div className="flex-grow">
-                      <h2 className="text-gray-900 title-font font-medium">
-                        Cristian Ezequiel Peralta
-                      </h2>
-                      <p className="text-gray-500">Developer</p>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="p-4 lg:w-1/3 md:w-1/2 w-full ">
                   <div className="h-full flex items-top border-gray-200 border p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
@@ -347,23 +297,6 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg transition duration-300 hover:shadow-md hover:bg-[#FFD700]">
-                    <Image
-                      alt="team"
-                      className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 border-solid shadow-md shadow-[#555555] rounded-full mr-4 transition duration-300 hover:scale-110"
-                      src={person_7}
-                      width={"80"}
-                      height={"80"}
-                    />
-                    <div className="flex-grow">
-                      <h2 className="text-gray-900 title-font font-medium">
-                        Hengers Emmanuel Rosario Morales
-                      </h2>
-                      <p className="text-gray-500">Developer</p>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="p-4 lg:w-1/3 md:w-1/2 w-full ">
                   <div className="h-full flex items-top border-gray-200 border p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
@@ -411,23 +344,6 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg transition duration-300 hover:shadow-md hover:bg-[#FFD700]">
-                    <Image
-                      alt="team"
-                      className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 border-solid shadow-md shadow-[#555555] rounded-full mr-4 transition duration-300 hover:scale-110"
-                      src={person_8}
-                      width={"80"}
-                      height={"80"}
-                    />
-                    <div className="flex-grow">
-                      <h2 className="text-gray-900 title-font font-medium">
-                        Edgar Mauricio Tello Meléndez
-                      </h2>
-                      <p className="text-gray-500">Developer</p>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="p-4 lg:w-1/3 md:w-1/2 w-full ">
                   <div className="h-full flex items-top border-gray-200 border p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
@@ -442,7 +358,7 @@ export default function page() {
                     </div>
                     <div className="flex-grow sm:pl-4 pl-2">
                       <h2 className="title-font font-medium text-lg text-gray-900">
-                        Leandro Gaston Saccomanno
+                        Leandro Gaston
                       </h2>
 
                       <h3 className="text-gray-500 mb-3">Developer</h3>
@@ -475,23 +391,6 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg transition duration-300 hover:shadow-md hover:bg-[#FFD700]">
-                    <Image
-                      alt="team"
-                      className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 border-solid shadow-md shadow-[#555555] rounded-full mr-4 transition duration-300 hover:scale-110"
-                      src={person_1}
-                      width={"80"}
-                      height={"80"}
-                    />
-                    <div className="flex-grow">
-                      <h2 className="text-gray-900 title-font font-medium">
-                        Leandro Gaston Saccomanno
-                      </h2>
-                      <p className="text-gray-500">Developer</p>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="p-4 lg:w-1/3 md:w-1/2 w-full ">
                   <div className="h-full flex items-top border-gray-200 border p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
@@ -539,23 +438,6 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                {/*             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                  <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg transition duration-300 hover:shadow-md hover:bg-[#FFD700]">
-                    <Image
-                      alt="team"
-                      className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 border-solid shadow-md shadow-[#555555]  rounded-full mr-4 transition duration-300 hover:scale-110"
-                      src={person_5}
-                      width={"80"}
-                      height={"80"}
-                    />
-                    <div className="flex-grow">
-                      <h2 className="text-gray-900 title-font font-medium">
-                        Wilialberth Valentin Jimenez Pena
-                      </h2>
-                      <p className="text-gray-500">Developer</p>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div className="p-4 lg:w-1/3 md:w-1/2 w-full ">
                   <div className="h-full flex items-top border-gray-200 border p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
@@ -603,23 +485,6 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="p-2 lg:w-1/3 md:w-1/2 w-full ">
-                  <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg transition duration-300 hover:shadow-md hover:bg-[#FFD700]">
-                    <Image
-                      alt="team"
-                      className="w-16 h-16 bg-white object-cover object-center flex-shrink-0 border-solid shadow-md shadow-[#555555]  rounded-full mr-4 transition duration-300 hover:scale-110"
-                      src={person_6}
-                      width={"80"}
-                      height={"80"}
-                    />
-                    <div className="flex-grow">
-                      <h2 className="text-gray-900 title-font font-medium">
-                        Rodrigo Maximiliano Zanek
-                      </h2>
-                      <p className="text-gray-500">Developer</p>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
           </section>
