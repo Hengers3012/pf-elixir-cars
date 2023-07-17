@@ -15,13 +15,13 @@ function Header() {
         />
 
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900 hover:cursor-pointer h-full flex border-gray-200 p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
+          <a className="mr-5 hover:text-gray-900 hover:cursor-pointer h-fit flex border-gray-200 p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
             Contact Link
           </a>
-          <a className="mr-5 hover:text-gray-900 hover:cursor-pointer h-full flex border-gray-200 p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
+          <a className="mr-5 hover:text-gray-900 hover:cursor-pointer h-fit flex border-gray-200 p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
             FAQ's Link
           </a>
-          <a className="mr-5 hover:text-gray-900 hover:cursor-pointer h-full flex border-gray-200 p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
+          <a className="mr-5 hover:text-gray-900 hover:cursor-pointer h-fit flex border-gray-200 p-2 rounded-lg transition duration-300 hover:shadow-md shadow-[#555555] hover:bg-[#FFD700]">
             Etc.. Link
           </a>
         </nav>
